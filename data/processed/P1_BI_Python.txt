@@ -1,0 +1,14 @@
+P1. BI Python Analysis Results
+========================================
+
+6. Most Common Customer Region:
+East (appears 4 times)
+
+7. Highest and Lowest Product Price:
+Highest product price: $793.12
+Lowest product price:  $12.56
+
+8. Sales Statistics (Average, Minimum, Maximum):
+Average Sale: $1154.85
+Minimum Sale: $12.56
+Maximum Sale: $7931.20
