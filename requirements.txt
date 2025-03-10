@@ -68,6 +68,5 @@ matplotlib
 seaborn
 plotly
 
-# Jupyter and related tools
-ipykernel
-jupyterlab
+# Easy access to modern Excel files (*.xlsx)
+openpyxl

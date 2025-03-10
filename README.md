@@ -7,16 +7,18 @@ P1. BI Python - Initial Step Up
 smart-store-data-git-hub
 |
 |- data/
-|   |- raw/
-|       |- customers_data.csv
-|       |- products_data.csv
-|       |- sales_data.csv
+|   | - raw
+        |- customers_data.csv
+        |- products_data.csv
+        |- sales_data.csv
+    | - processed
+        |- customer_average_transaction_size.png
+        |- customer_average_transaction_size.txt    
 |- logs/
 |   |- project_log.log
 |- scripts/
 |- utils/
-|   |- logger.py
-|- smart-store-p1.ipynb
+|   |- utils_logger.py
 |- .gitignore
 |- README.md
 |- requirements.txt
