@@ -13,10 +13,14 @@ smart-store-data-git-hub
         |- sales_data.csv
     | - processed
         |- customer_average_transaction_size.png
-        |- customer_average_transaction_size.txt    
+        |- customer_average_transaction_size.txt
+        |- customer_total_revenue_pie.png
+        |- customer_total_revenue.txt    
 |- logs/
 |   |- project_log.log
 |- scripts/
+    |- customer_avg_transaction_size.py
+    |- customer_total_revenue.py
 |- utils/
 |   |- utils_logger.py
 |- .gitignore
