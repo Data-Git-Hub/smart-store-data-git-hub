@@ -67,3 +67,7 @@ pandas
 matplotlib
 seaborn
 plotly
+
+# Jupyter and related tools
+ipykernel
+jupyterlab

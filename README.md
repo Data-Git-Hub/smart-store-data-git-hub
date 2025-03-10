@@ -3,21 +3,24 @@ P1. BI Python - Initial Step Up
 
 # Project File Organization
 
+```plaintext
 smart-store-data-git-hub
 |
-|- data /
-|   |- raw /
-|       | - customers_data.csv
-|       | - products_data.csv
-|       | - sales_data.csv
-|- logs /
+|- data/
+|   |- raw/
+|       |- customers_data.csv
+|       |- products_data.csv
+|       |- sales_data.csv
+|- logs/
 |   |- project_log.log
-|- scripts /
-|- utils /
+|- scripts/
+|- utils/
 |   |- logger.py
+|- smart-store-p1.ipynb
 |- .gitignore
 |- README.md
-|-requirements.txt
+|- requirements.txt
+```
 
 ## P1.1 - CUSTOMER_AVERAGE_TRANSACTION_SIZE
 Overview
