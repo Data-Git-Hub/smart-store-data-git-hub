@@ -1,5 +1,5 @@
 # requirements.txt - this file lists external packages the project needs
-# Ingnore hashes (or number signs or pound signs) - they are used to write comments. 
+# Ignore hashes (or number signs or pound signs) - they are used to write comments. 
 # Comments are ignored when we install packages using this file. 
 
 # ======================================================
@@ -34,8 +34,6 @@
 
 # Verify: When active, you can usually see (.venv) in the terminal.
 
-# When using a Jupyter notebook, select the kernel associated with your project .venv.
-
 # ======================================================
 # STEP C - INSTALL PACKAGES INTO .venv AS NEEDED
 # ======================================================
@@ -50,16 +48,6 @@
 
 ### Mac/Linux Command (don't include the #):
 # python3 -m pip install --upgrade -r requirements.txt
-
-# ======================================================
-# OPTIONAL STEP D - TRY VENV CHECKER (NEW)
-# ======================================================
-
-# To verify local project .venv and requirements
-### Windows Command (don't include the #):
-# py -m datafun_venv_checker.venv_checker
-### Mac/Linux Command (don't include the #):
-# python3 -m datafun_venv_checker.venv_checker
 
 # ======================================================
 # LIST EXTERNAL PACKAGES TO BE INSTALLED BELOW
@@ -79,7 +67,3 @@ pandas
 matplotlib
 seaborn
 plotly
-
-# Work with Apache Spark for big data
-#pyspark==4.0.0.dev1
-#pyspark[sql]
