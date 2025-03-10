@@ -15,10 +15,12 @@ smart-store-data-git-hub
         |- customer_average_transaction_size.png
         |- customer_average_transaction_size.txt
         |- customer_total_revenue_pie.png
-        |- customer_total_revenue.txt    
+        |- customer_total_revenue.txt  
+        |- P1_B1_Python,txt  
 |- logs/
 |   |- project_log.log
 |- scripts/
+    |- bi_analysis.py
     |- customer_avg_transaction_size.py
     |- customer_total_revenue.py
 |- utils/
