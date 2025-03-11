@@ -15,7 +15,7 @@ smart-store-data-git-hub
         |- products_data.csv
         |- sales_data.csv
     | - processed
-        |- P1_B1_Python,txt  
+        |- P1_B1_Python.txt  
 |- logs/
 |   |- project_log.log
 |- scripts/
