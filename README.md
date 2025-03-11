@@ -46,13 +46,7 @@ py -m venv .venv
 py -m pip install --upgrade -r requirements.txt
 ```
 
-### Optional: Verify .venv Setup
-
-```shell
-py -m datafun_venv_checker.venv_checker
-```
-
-### Run the initial project script
+## Run the initial project script
 
 ```shell
 py scripts/data_prep.py
