@@ -98,3 +98,42 @@
 2025-03-11 01:27:56.867 | INFO     | __main__:main:119 - ======================
 2025-03-11 01:27:56.867 | INFO     | __main__:main:120 - FINISHED data_prep_m3.py
 2025-03-11 01:27:56.867 | INFO     | __main__:main:121 - ======================
+2025-03-11 01:47:57.458 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 01:47:57.460 | INFO     | __main__:main:59 - ======================
+2025-03-11 01:47:57.460 | INFO     | __main__:main:60 - STARTING data_prep_m3.py
+2025-03-11 01:47:57.460 | INFO     | __main__:main:61 - ======================
+2025-03-11 01:47:57.460 | INFO     | __main__:main:67 - ========================
+2025-03-11 01:47:57.461 | INFO     | __main__:main:68 - Starting CUSTOMERS prep
+2025-03-11 01:47:57.461 | INFO     | __main__:main:69 - ========================
+2025-03-11 01:47:57.472 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\customer_data_prepared.csv
+2025-03-11 01:47:57.472 | INFO     | __main__:main:91 - ========================
+2025-03-11 01:47:57.472 | INFO     | __main__:main:92 - Starting PRODUCTS prep
+2025-03-11 01:47:57.472 | INFO     | __main__:main:93 - ========================
+2025-03-11 01:47:57.479 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\products_data_prepared.csv
+2025-03-11 01:47:57.479 | INFO     | __main__:main:110 - ========================
+2025-03-11 01:47:57.479 | INFO     | __main__:main:111 - Starting SALES prep
+2025-03-11 01:47:57.479 | INFO     | __main__:main:112 - ========================
+2025-03-11 01:47:57.491 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\sales_data_prepared.csv
+2025-03-11 01:47:57.491 | INFO     | __main__:main:131 - ======================
+2025-03-11 01:47:57.491 | INFO     | __main__:main:132 - FINISHED data_prep_m3.py
+2025-03-11 01:47:57.492 | INFO     | __main__:main:133 - ======================
+2025-03-11 01:50:08.514 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 01:51:52.369 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 01:51:52.372 | INFO     | __main__:main:59 - ======================
+2025-03-11 01:51:52.372 | INFO     | __main__:main:60 - STARTING data_prep_m3.py
+2025-03-11 01:51:52.372 | INFO     | __main__:main:61 - ======================
+2025-03-11 01:51:52.373 | INFO     | __main__:main:67 - ========================
+2025-03-11 01:51:52.373 | INFO     | __main__:main:68 - Starting CUSTOMERS prep
+2025-03-11 01:51:52.373 | INFO     | __main__:main:69 - ========================
+2025-03-11 01:51:52.384 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\customers_data_prepared.csv
+2025-03-11 01:51:52.384 | INFO     | __main__:main:91 - ========================
+2025-03-11 01:51:52.385 | INFO     | __main__:main:92 - Starting PRODUCTS prep
+2025-03-11 01:51:52.385 | INFO     | __main__:main:93 - ========================
+2025-03-11 01:51:52.391 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\products_data_prepared.csv
+2025-03-11 01:51:52.392 | INFO     | __main__:main:110 - ========================
+2025-03-11 01:51:52.392 | INFO     | __main__:main:111 - Starting SALES prep
+2025-03-11 01:51:52.392 | INFO     | __main__:main:112 - ========================
+2025-03-11 01:51:52.403 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\sales_data_prepared.csv
+2025-03-11 01:51:52.403 | INFO     | __main__:main:131 - ======================
+2025-03-11 01:51:52.403 | INFO     | __main__:main:132 - FINISHED data_prep_m3.py
+2025-03-11 01:51:52.403 | INFO     | __main__:main:133 - ======================
