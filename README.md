@@ -62,7 +62,7 @@ py -m pip install --upgrade -r requirements.txt
 ## P1. BI Python - Project Script
 
 ```shell
-python scripts/bi_analysis.py
+py scripts/bi_analysis.py
 ```
 
 ## P2. BI Python w/External Packages
