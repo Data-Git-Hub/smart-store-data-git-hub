@@ -7,6 +7,9 @@ smart-store-data-git-hub
 |
 |- data/
 |   |- _prepared
+|       |- customers_data_prepared.csv
+|       |- products_data_prepared.csv
+|       |- sales_data_prepared.csv
 |   |- dirty_data
 |       |- dirty_customers_data.csv
 |       |- dirty_products_data.csv
@@ -24,14 +27,21 @@ smart-store-data-git-hub
 |- logs/
 |   |- project_log.log
 |- scripts/
+|   |- data_preparation
+|       |- polished_data.py
+|       |- prepare_customers_data.py
+|       |- prepare_products_data.py
+|       |- prepare_sales_data.py
 |   |- bi_analysis.py
 |   |- create_dirty_data.py
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
+
 |- utils/
 |   |- utils_logger.py
 |- .gitignore
+|- LICENSE
 |- README.md
 |- requirements.txt
 ```
@@ -121,3 +131,12 @@ python3 scripts/create_dirty_data.py
 
 ### Clean the Data
 
+### On Windows:
+```shell
+py scripts\data_preparation\polished_data.py
+```
+
+### On macOD/Linux:
+```shell
+python3 scripts/data_preparation/polished_data.py
+```

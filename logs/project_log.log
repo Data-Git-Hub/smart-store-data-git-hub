@@ -202,3 +202,50 @@
 2025-03-11 03:11:19.887 | INFO     | __main__:clean_sales_data:72 - Dropped 0 rows due to invalid SaleAmount values
 2025-03-11 03:11:19.887 | INFO     | __main__:clean_sales_data:74 - Final cleaned data shape: (94, 7)
 2025-03-11 03:11:19.891 | INFO     | __main__:main:93 - Cleaned sales data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\sales_data_prepared.csv
+2025-03-11 03:28:59.270 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:28:59.270 | INFO     | __main__:main:48 - Starting polished_data.py - Running all data cleaning scripts.
+2025-03-11 03:28:59.271 | INFO     | __main__:run_script:40 - Running script: C:\Projects\smart-store-data-git-hub\scripts\data_preparation\prepare_customers_data.py
+2025-03-11 03:28:59.598 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:28:59.599 | INFO     | __main__:main:82 - Starting prepare_customers_data.py
+2025-03-11 03:28:59.601 | INFO     | __main__:main:86 - Loaded dirty customers data from C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_customers_data.csv with shape (26, 4)
+2025-03-11 03:28:59.601 | INFO     | __main__:clean_customers_data:43 - Starting cleaning: original shape = (26, 4)
+2025-03-11 03:28:59.601 | INFO     | __main__:clean_customers_data:47 - After duplicates removal: shape = (26, 4)
+2025-03-11 03:28:59.602 | INFO     | __main__:clean_customers_data:53 - Dropped 10 rows due to non-numeric CustomerID
+2025-03-11 03:28:59.603 | INFO     | __main__:clean_customers_data:58 - Dropped 5 rows due to CustomerID outliers
+2025-03-11 03:28:59.603 | INFO     | __main__:clean_customers_data:64 - Dropped 0 rows due to empty Name
+2025-03-11 03:28:59.603 | INFO     | __main__:clean_customers_data:70 - Dropped 0 rows due to invalid Region
+2025-03-11 03:28:59.605 | INFO     | __main__:clean_customers_data:76 - Dropped 0 rows due to invalid JoinDate
+2025-03-11 03:28:59.605 | INFO     | __main__:clean_customers_data:78 - Final cleaned data shape: (11, 4)
+2025-03-11 03:28:59.606 | INFO     | __main__:main:97 - Cleaned customers data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\customers_data_prepared.csv
+2025-03-11 03:28:59.647 | INFO     | __main__:run_script:42 - Script prepare_customers_data.py completed successfully.
+2025-03-11 03:28:59.647 | INFO     | __main__:run_script:43 - 
+2025-03-11 03:28:59.647 | INFO     | __main__:run_script:40 - Running script: C:\Projects\smart-store-data-git-hub\scripts\data_preparation\prepare_products_data.py
+2025-03-11 03:28:59.962 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:28:59.962 | INFO     | __main__:main:87 - Starting prepare_products_data.py
+2025-03-11 03:28:59.964 | INFO     | __main__:main:91 - Loaded dirty products data from C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_products_data.csv with shape (23, 4)
+2025-03-11 03:28:59.964 | INFO     | __main__:clean_products_data:46 - Starting cleaning: original shape = (23, 4)
+2025-03-11 03:28:59.965 | INFO     | __main__:clean_products_data:50 - After duplicates removal: shape = (23, 4)
+2025-03-11 03:28:59.966 | INFO     | __main__:clean_products_data:56 - Dropped 10 rows due to non-numeric ProductID
+2025-03-11 03:28:59.966 | INFO     | __main__:clean_products_data:61 - Dropped 5 rows due to ProductID outliers
+2025-03-11 03:28:59.966 | INFO     | __main__:clean_products_data:67 - Dropped 0 rows due to empty ProductName
+2025-03-11 03:28:59.967 | INFO     | __main__:clean_products_data:73 - Dropped 0 rows due to invalid Category
+2025-03-11 03:28:59.968 | INFO     | __main__:clean_products_data:80 - Dropped 0 rows due to invalid UnitPrice values
+2025-03-11 03:28:59.968 | INFO     | __main__:clean_products_data:82 - Final cleaned data shape: (8, 4)
+2025-03-11 03:28:59.968 | INFO     | __main__:main:102 - Cleaned products data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\products_data_prepared.csv
+2025-03-11 03:29:00.009 | INFO     | __main__:run_script:42 - Script prepare_products_data.py completed successfully.
+2025-03-11 03:29:00.009 | INFO     | __main__:run_script:43 - 
+2025-03-11 03:29:00.009 | INFO     | __main__:run_script:40 - Running script: C:\Projects\smart-store-data-git-hub\scripts\data_preparation\prepare_sales_data.py
+2025-03-11 03:29:00.323 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:29:00.323 | INFO     | __main__:main:78 - Starting prepare_sales_data.py
+2025-03-11 03:29:00.325 | INFO     | __main__:main:82 - Loaded dirty sales data from C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_sales_data.csv with shape (109, 7)
+2025-03-11 03:29:00.325 | INFO     | __main__:clean_sales_data:44 - Starting cleaning: original shape = (109, 7)
+2025-03-11 03:29:00.326 | INFO     | __main__:clean_sales_data:48 - After duplicates removal: shape = (109, 7)
+2025-03-11 03:29:00.327 | INFO     | __main__:clean_sales_data:54 - Dropped 10 rows due to non-numeric TransactionID
+2025-03-11 03:29:00.327 | INFO     | __main__:clean_sales_data:59 - Dropped 5 rows due to TransactionID outliers
+2025-03-11 03:29:00.329 | INFO     | __main__:clean_sales_data:65 - Dropped 0 rows due to invalid SaleDate
+2025-03-11 03:29:00.329 | INFO     | __main__:clean_sales_data:72 - Dropped 0 rows due to invalid SaleAmount values
+2025-03-11 03:29:00.330 | INFO     | __main__:clean_sales_data:74 - Final cleaned data shape: (94, 7)
+2025-03-11 03:29:00.331 | INFO     | __main__:main:93 - Cleaned sales data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\sales_data_prepared.csv
+2025-03-11 03:29:00.375 | INFO     | __main__:run_script:42 - Script prepare_sales_data.py completed successfully.
+2025-03-11 03:29:00.376 | INFO     | __main__:run_script:43 - 
+2025-03-11 03:29:00.376 | INFO     | __main__:main:53 - All data cleaning scripts completed successfully.
