@@ -1,9 +1,9 @@
 # smart-store-data-git-hub
 P1. BI Python - Initial Step Up
 
-''' shell
+```shell
 python scripts/bi_analysis.py
-'''
+```
 
 # Project File Organization
 
