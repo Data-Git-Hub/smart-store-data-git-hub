@@ -6,6 +6,11 @@
 smart-store-data-git-hub
 |
 |- data/
+|   |- _prepared
+|   |- dirty_data
+|       |- dirty_customers_data.csv
+|       |- dirty_products_data.csv
+|       |- dirty_sales_data.csv
 |   |- prepared
 |       |- customers_data_prepared.csv
 |       |- products_data_prepared.csv
@@ -20,6 +25,7 @@ smart-store-data-git-hub
 |   |- project_log.log
 |- scripts/
 |   |- bi_analysis.py
+|   |- create_dirty_data.py
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
@@ -98,3 +104,20 @@ py scripts/data_prep_m3.py
 ```shell
 python3 scripts/data_prep_m3.py
 ```
+
+## D3.2 Data Cleaning & ETL Prep
+
+### Dirty the Data
+
+### On Windows:
+```shell
+py scripts\create_dirty_data.py
+```
+
+### On macOS/Linux:
+```shell
+python3 scripts/create_dirty_data.py
+```
+
+### Clean the Data
+

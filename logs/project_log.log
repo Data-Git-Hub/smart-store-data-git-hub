@@ -137,3 +137,33 @@
 2025-03-11 01:51:52.403 | INFO     | __main__:main:131 - ======================
 2025-03-11 01:51:52.403 | INFO     | __main__:main:132 - FINISHED data_prep_m3.py
 2025-03-11 01:51:52.403 | INFO     | __main__:main:133 - ======================
+2025-03-11 02:11:10.969 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 02:11:10.969 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-11 02:11:10.969 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\customers_data.csv.
+2025-03-11 02:11:10.971 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\products_data.csv.
+2025-03-11 02:11:10.972 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\sales_data.csv.
+2025-03-11 02:11:10.973 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-11 02:47:39.384 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 02:47:39.384 | INFO     | __main__:<module>:27 - Dirty data directory set to: C:\Projects\smart-store-data-git-hub\data\dirty_data
+2025-03-11 02:47:39.384 | INFO     | __main__:<module>:32 - Processing customers_data.csv for dirty data injection
+2025-03-11 02:47:39.386 | INFO     | __main__:<module>:34 - Original customers data shape: (11, 4)
+2025-03-11 02:47:39.386 | INFO     | __main__:<module>:43 - Created outlier rows for customers data
+2025-03-11 02:47:39.387 | INFO     | __main__:<module>:52 - Created missing value rows for customers data
+2025-03-11 02:47:39.387 | INFO     | __main__:<module>:61 - Created mis-entered rows for customers data
+2025-03-11 02:47:39.387 | INFO     | __main__:<module>:64 - Dirty customers data shape: (26, 4)
+2025-03-11 02:47:39.388 | INFO     | __main__:<module>:66 - Dirty customers data saved to C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_customers_data.csv
+2025-03-11 02:47:39.388 | INFO     | __main__:<module>:71 - Processing products_data.csv for dirty data injection
+2025-03-11 02:47:39.389 | INFO     | __main__:<module>:73 - Original products data shape: (8, 4)
+2025-03-11 02:47:39.389 | INFO     | __main__:<module>:82 - Created outlier rows for products data
+2025-03-11 02:47:39.390 | INFO     | __main__:<module>:91 - Created missing value rows for products data
+2025-03-11 02:47:39.390 | INFO     | __main__:<module>:100 - Created mis-entered rows for products data
+2025-03-11 02:47:39.390 | INFO     | __main__:<module>:103 - Dirty products data shape: (23, 4)
+2025-03-11 02:47:39.391 | INFO     | __main__:<module>:105 - Dirty products data saved to C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_products_data.csv
+2025-03-11 02:47:39.391 | INFO     | __main__:<module>:110 - Processing sales_data.csv for dirty data injection
+2025-03-11 02:47:39.392 | INFO     | __main__:<module>:112 - Original sales data shape: (94, 7)
+2025-03-11 02:47:39.393 | INFO     | __main__:<module>:124 - Created outlier rows for sales data
+2025-03-11 02:47:39.393 | INFO     | __main__:<module>:136 - Created missing value rows for sales data
+2025-03-11 02:47:39.393 | INFO     | __main__:<module>:148 - Created mis-entered rows for sales data
+2025-03-11 02:47:39.394 | INFO     | __main__:<module>:151 - Dirty sales data shape: (109, 7)
+2025-03-11 02:47:39.394 | INFO     | __main__:<module>:153 - Dirty sales data saved to C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_sales_data.csv
+2025-03-11 02:47:39.395 | INFO     | __main__:<module>:155 - Dirty data files created successfully.
