@@ -47,3 +47,9 @@
 2025-03-10 21:48:39.327 | INFO     | __main__:get_highest_lowest_product_price:99 - Calculated highest and lowest product prices.
 2025-03-10 21:48:39.327 | INFO     | __main__:get_sales_statistics:140 - Calculated sales statistics.
 2025-03-10 21:48:39.327 | INFO     | __main__:main:173 - Analysis complete. Results saved to: C:\Projects\smart-store-data-git-hub\data\processed\P1_BI_Python.txt
+2025-03-11 01:18:45.685 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 01:18:45.685 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-11 01:18:45.685 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\customers_data.csv.
+2025-03-11 01:18:45.687 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\products_data.csv.
+2025-03-11 01:18:45.688 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\sales_data.csv.
+2025-03-11 01:18:45.689 | INFO     | __main__:main:45 - Data preparation complete.
