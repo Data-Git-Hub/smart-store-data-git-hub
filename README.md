@@ -6,19 +6,23 @@
 smart-store-data-git-hub
 |
 |- data/
+|   |- prepared
+|       |- customers_data_prepared.csv
+|       |- products_data_prepared.csv
+|       |- sales_data_prepared.csv
+|   | - processed
+|       |- P1_B1_Python.txt  
 |   | - raw
-        |- customers_data.csv
-        |- products_data.csv
-        |- sales_data.csv
-    | - processed
-        |- P1_B1_Python.txt  
+|       |- customers_data.csv
+|       |- products_data.csv
+|       |- sales_data.csv
 |- logs/
 |   |- project_log.log
 |- scripts/
-    |- bi_analysis.py
-    |- data_prep_m2.py
-    |- data_prep_m3.py
-    |- data_scrubber.py
+|   |- bi_analysis.py
+|   |- data_prep_m2.py
+|   |- data_prep_m3.py
+|   |- data_scrubber.py
 |- utils/
 |   |- utils_logger.py
 |- .gitignore
@@ -61,13 +65,36 @@ py -m pip install --upgrade -r requirements.txt
 ---
 ## P1. BI Python - Project Script
 
+### On Windows:
 ```shell
 py scripts/bi_analysis.py
 ```
 
+### On macOS/Linux:
+```shell
+python3 scripts/bi_analysis.py
+```
+
 ## P2. BI Python w/External Packages
 
+### On Windows:
 ```shell
 py scripts/data_prep_m2.py
 ```
 
+### On macOs/Linux:
+```shell
+python2 scripts/data_prep_m2.py
+```
+
+## D3.1 Data Collection
+
+### On Windows:
+```shell
+py scripts/data_prep_m3.py
+```
+
+### On macOS/Linux:
+```shell
+python3 scripts/data_prep_m3.py
+```
