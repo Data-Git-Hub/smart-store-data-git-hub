@@ -13,7 +13,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 # Now we can import local modules
-from utils.logger import logger
+from utils.utils_logger import logger
 
 # Constants
 DATA_DIR: pathlib.Path = PROJECT_ROOT.joinpath("data")

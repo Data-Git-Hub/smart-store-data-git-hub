@@ -23,6 +23,7 @@ smart-store-data-git-hub
     |- bi_analysis.py
     |- customer_avg_transaction_size.py
     |- customer_total_revenue.py
+    |- data_prep.py
 |- utils/
 |   |- utils_logger.py
 |- .gitignore
