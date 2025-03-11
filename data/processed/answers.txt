@@ -1,0 +1,16 @@
+Record Count Differences Report
+
+Customers:
+  Raw records count: 26
+  Prepared records count: 11
+  Difference: 15 records removed
+
+Products:
+  Raw records count: 23
+  Prepared records count: 8
+  Difference: 15 records removed
+
+Sales:
+  Raw records count: 109
+  Prepared records count: 94
+  Difference: 15 records removed

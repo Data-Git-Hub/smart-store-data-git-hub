@@ -19,6 +19,7 @@ smart-store-data-git-hub
 |       |- products_data_prepared.csv
 |       |- sales_data_prepared.csv
 |   | - processed
+|       |- answers.txt
 |       |- P1_B1_Python.txt  
 |   | - raw
 |       |- customers_data.csv
@@ -32,13 +33,13 @@ smart-store-data-git-hub
 |       |- prepare_customers_data.py
 |       |- prepare_products_data.py
 |       |- prepare_sales_data.py
+|       |- report_record_differences.py
 |   |- bi_analysis.py
 |   |- create_dirty_data.py
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
-
-|- utils/
+|- utils
 |   |- utils_logger.py
 |- .gitignore
 |- LICENSE
@@ -136,7 +137,20 @@ python3 scripts/create_dirty_data.py
 py scripts\data_preparation\polished_data.py
 ```
 
-### On macOD/Linux:
+### On macOS/Linux:
 ```shell
 python3 scripts/data_preparation/polished_data.py
 ```
+
+### Run Difference Record Report
+
+### On Windows:
+```shell
+py scripts\data_preparation\report_record_differences.py
+```
+
+### On macOS/Linux:
+```shell
+python3 scripts/data_preparation/report_record_differences.py
+```
+
