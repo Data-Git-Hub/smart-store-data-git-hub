@@ -79,3 +79,22 @@
 2025-03-11 01:22:19.048 | INFO     | __main__:main:119 - ======================
 2025-03-11 01:22:19.048 | INFO     | __main__:main:120 - FINISHED data_prep_m3.py
 2025-03-11 01:22:19.048 | INFO     | __main__:main:121 - ======================
+2025-03-11 01:27:56.836 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 01:27:56.838 | INFO     | __main__:main:59 - ======================
+2025-03-11 01:27:56.838 | INFO     | __main__:main:60 - STARTING data_prep_m3.py
+2025-03-11 01:27:56.838 | INFO     | __main__:main:61 - ======================
+2025-03-11 01:27:56.838 | INFO     | __main__:main:66 - ========================
+2025-03-11 01:27:56.839 | INFO     | __main__:main:67 - Starting CUSTOMERS prep
+2025-03-11 01:27:56.839 | INFO     | __main__:main:68 - ========================
+2025-03-11 01:27:56.849 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\customers_data_prepared.csv
+2025-03-11 01:27:56.849 | INFO     | __main__:main:86 - ========================
+2025-03-11 01:27:56.849 | INFO     | __main__:main:87 - Starting PRODUCTS prep
+2025-03-11 01:27:56.849 | INFO     | __main__:main:88 - ========================
+2025-03-11 01:27:56.855 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\products_data_prepared.csv
+2025-03-11 01:27:56.855 | INFO     | __main__:main:101 - ========================
+2025-03-11 01:27:56.855 | INFO     | __main__:main:102 - Starting SALES prep
+2025-03-11 01:27:56.855 | INFO     | __main__:main:103 - ========================
+2025-03-11 01:27:56.867 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-data-git-hub\data\prepared\sales_data_prepared.csv
+2025-03-11 01:27:56.867 | INFO     | __main__:main:119 - ======================
+2025-03-11 01:27:56.867 | INFO     | __main__:main:120 - FINISHED data_prep_m3.py
+2025-03-11 01:27:56.867 | INFO     | __main__:main:121 - ======================

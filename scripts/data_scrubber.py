@@ -1,4 +1,4 @@
-r"""
+"""
 scripts/data_scrubber.py
 
 Do not run this script directly. 
