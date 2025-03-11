@@ -130,7 +130,7 @@ class DataScrubber:
             return self.df
         except KeyError:
             raise ValueError(f"Column name '{column}' not found in the DataFrame.")
-        
+
     def format_column_strings_to_upper_and_trim(self, column: str) -> pd.DataFrame:
         """
         Format strings in a specified column by converting to uppercase and trimming whitespace.
@@ -145,9 +145,7 @@ class DataScrubber:
             ValueError: If the specified column not found in the DataFrame.
         """
         try:
-            # TODO: Fix the following logic to call str.upper() and str.strip() on the given column 
-            # HINT: See previous function for an example
-            self.df[column] = self.df[column]
+            self.df[column] = self.df[column].str.upper().str.strip()
             return self.df
         except KeyError:
             raise ValueError(f"Column name '{column}' not found in the DataFrame.")
@@ -203,54 +201,13 @@ class DataScrubber:
             return self.df
         except KeyError:
             raise ValueError(f"Column name '{column}' not found in the DataFrame.")
-
+    
     def remove_duplicate_records(self) -> pd.DataFrame:
         """
         Remove duplicate rows from the DataFrame.
         
         Returns:
             pd.DataFrame: Updated DataFrame with duplicates removed.
-
         """
         self.df = self.df.drop_duplicates()
-        return self.df
-
-    def rename_columns(self, column_mapping: Dict[str, str]) -> pd.DataFrame:
-        """
-        Rename columns in the DataFrame based on a provided mapping.
-        
-        Parameters:
-            column_mapping (dict): Dictionary where keys are old column names and values are new names.
-        
-        Returns:
-            pd.DataFrame: Updated DataFrame with renamed columns.
-
-        Raises:
-            ValueError: If a specified column is not found in the DataFrame.
-        """
-
-        for old_name, new_name in column_mapping.items():
-            if old_name not in self.df.columns:
-                raise ValueError(f"Column '{old_name}' not found in the DataFrame.")
-
-        self.df = self.df.rename(columns=column_mapping)
-        return self.df
-
-    def reorder_columns(self, columns: List[str]) -> pd.DataFrame:
-        """
-        Reorder columns in the DataFrame based on the specified order.
-        
-        Parameters:
-            columns (list): List of column names in the desired order.
-        
-        Returns:
-            pd.DataFrame: Updated DataFrame with reordered columns.
-
-        Raises:
-            ValueError: If a specified column is not found in the DataFrame.
-        """
-        for column in columns:
-            if column not in self.df.columns:
-                raise ValueError(f"Column name '{column}' not found in the DataFrame.")
-        self.df = self.df[columns]
         return self.df
