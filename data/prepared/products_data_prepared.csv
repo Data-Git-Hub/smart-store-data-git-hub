@@ -1,9 +1,9 @@
 ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier
-101,laptop,Electronics,793.12,0,Unknown
-102,hoodie,Clothing,39.1,0,Unknown
-103,cable,Electronics,22.76,0,Unknown
-104,hat,Clothing,43.1,0,Unknown
-105,football,Sports,19.78,0,Unknown
-106,controller,Electronics,88.98,0,Unknown
-107,jacket,Clothing,67.02,0,Unknown
-108,protector,Electronics,12.56,0,Unknown
+101,laptop,Electronics,793.12,15,China
+102,hoodie,Clothing,39.1,154,China
+103,cable,Electronics,22.76,560,Cuba
+104,hat,Clothing,43.1,1520,SouthKorea
+105,football,Sports,19.78,106,Russia
+106,controller,Electronics,88.98,57,Russia
+107,jacket,Clothing,67.02,0,Canada
+108,protector,Electronics,12.56,21,Mexico
