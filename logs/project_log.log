@@ -1,0 +1,49 @@
+2025-03-10 17:22:33.868 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 17:22:33.868 | INFO     | __main__:<module>:116 - Starting processing of customer average transaction size...
+2025-03-10 17:22:33.869 | INFO     | __main__:process_csv_file:109 - Processed CSV file: data\sales_data.csv, results saved to: data\processed\customer_average_transaction_size.txt
+2025-03-10 17:22:33.870 | INFO     | __main__:<module>:118 - Processing complete.
+2025-03-10 17:27:20.195 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 17:27:20.195 | INFO     | __main__:<module>:167 - Starting processing of customer average transaction size...
+2025-03-10 17:27:20.196 | INFO     | __main__:process_csv_file:156 - Processed CSV file: data\sales_data.csv, results saved to: data\processed\customer_average_transaction_size.txt
+2025-03-10 17:27:20.927 | INFO     | __main__:process_csv_file:160 - Bar graph saved to: data\processed\customer_average_transaction_size.png
+2025-03-10 17:27:20.928 | INFO     | __main__:<module>:169 - Processing complete.
+2025-03-10 17:31:51.227 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 17:31:51.227 | INFO     | __main__:<module>:167 - Starting processing of customer average transaction size...
+2025-03-10 17:31:51.228 | INFO     | __main__:process_csv_file:156 - Processed CSV file: data\raw\sales_data.csv, results saved to: data\processed\customer_average_transaction_size.txt
+2025-03-10 17:31:51.431 | INFO     | __main__:process_csv_file:160 - Bar graph saved to: data\processed\customer_average_transaction_size.png
+2025-03-10 17:31:51.431 | INFO     | __main__:<module>:169 - Processing complete.
+2025-03-10 17:39:32.542 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 17:39:32.542 | INFO     | __main__:<module>:110 - Starting processing of customer total revenue...
+2025-03-10 17:39:32.543 | INFO     | __main__:process_csv_file:103 - Processed CSV file: data\raw\sales_data.csv, results saved to: data\processed\customer_total_revenue.txt
+2025-03-10 17:39:32.543 | INFO     | __main__:<module>:112 - Processing complete.
+2025-03-10 17:42:35.130 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 17:42:35.130 | INFO     | __main__:<module>:147 - Starting processing of customer total revenue...
+2025-03-10 17:42:35.131 | INFO     | __main__:process_csv_file:136 - Processed CSV file: data\raw\sales_data.csv, results saved to: data\processed\customer_total_revenue.txt
+2025-03-10 17:42:35.317 | INFO     | __main__:process_csv_file:140 - Pie chart saved to: data\processed\customer_total_revenue_pie.png
+2025-03-10 17:42:35.318 | INFO     | __main__:<module>:149 - Processing complete.
+2025-03-10 18:14:23.350 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 18:14:23.350 | INFO     | __main__:get_most_common_customer_region:60 - Most common customer region: East (appears 4 times)
+2025-03-10 18:14:23.351 | ERROR    | __main__:get_highest_lowest_product_price:84 - Column 'Unit Price' not found in products_data.csv.
+2025-03-10 18:14:23.351 | INFO     | __main__:get_sales_statistics:140 - Calculated sales statistics.
+2025-03-10 18:14:23.351 | INFO     | __main__:main:173 - Analysis complete. Results saved to: C:\Projects\smart-store-data-git-hub\data\processed\P1_BI_Python.txt
+2025-03-10 18:15:47.872 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 18:15:47.873 | INFO     | __main__:get_most_common_customer_region:60 - Most common customer region: East (appears 4 times)
+2025-03-10 18:15:47.873 | INFO     | __main__:get_highest_lowest_product_price:99 - Calculated highest and lowest product prices.
+2025-03-10 18:15:47.873 | INFO     | __main__:get_sales_statistics:140 - Calculated sales statistics.
+2025-03-10 18:15:47.874 | INFO     | __main__:main:173 - Analysis complete. Results saved to: C:\Projects\smart-store-data-git-hub\data\processed\P1_BI_Python.txt
+2025-03-10 18:19:07.167 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 18:19:07.168 | INFO     | __main__:get_most_common_customer_region:60 - Most common customer region: East (appears 4 times)
+2025-03-10 18:19:07.168 | INFO     | __main__:get_highest_lowest_product_price:99 - Calculated highest and lowest product prices.
+2025-03-10 18:19:07.168 | INFO     | __main__:get_sales_statistics:140 - Calculated sales statistics.
+2025-03-10 18:19:07.169 | INFO     | __main__:main:173 - Analysis complete. Results saved to: C:\Projects\smart-store-data-git-hub\data\processed\P1_BI_Python.txt
+2025-03-10 21:32:03.034 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 21:32:03.034 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-10 21:32:03.034 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\customers_data.csv.
+2025-03-10 21:32:03.037 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\products_data.csv.
+2025-03-10 21:32:03.037 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-data-git-hub\data\raw\sales_data.csv.
+2025-03-10 21:32:03.038 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-10 21:48:39.326 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-10 21:48:39.327 | INFO     | __main__:get_most_common_customer_region:60 - Most common customer region: East (appears 4 times)
+2025-03-10 21:48:39.327 | INFO     | __main__:get_highest_lowest_product_price:99 - Calculated highest and lowest product prices.
+2025-03-10 21:48:39.327 | INFO     | __main__:get_sales_statistics:140 - Calculated sales statistics.
+2025-03-10 21:48:39.327 | INFO     | __main__:main:173 - Analysis complete. Results saved to: C:\Projects\smart-store-data-git-hub\data\processed\P1_BI_Python.txt
