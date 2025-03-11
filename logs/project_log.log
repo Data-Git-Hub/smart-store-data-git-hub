@@ -179,3 +179,15 @@
 2025-03-11 03:05:38.878 | INFO     | __main__:clean_customers_data:76 - Dropped 0 rows due to invalid JoinDate
 2025-03-11 03:05:38.878 | INFO     | __main__:clean_customers_data:78 - Final cleaned data shape: (11, 4)
 2025-03-11 03:05:38.880 | INFO     | __main__:main:97 - Cleaned customers data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\customers_data_prepared.csv
+2025-03-11 03:08:49.095 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:08:49.095 | INFO     | __main__:main:87 - Starting prepare_products_data.py
+2025-03-11 03:08:49.097 | INFO     | __main__:main:91 - Loaded dirty products data from C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_products_data.csv with shape (23, 4)
+2025-03-11 03:08:49.098 | INFO     | __main__:clean_products_data:46 - Starting cleaning: original shape = (23, 4)
+2025-03-11 03:08:49.098 | INFO     | __main__:clean_products_data:50 - After duplicates removal: shape = (23, 4)
+2025-03-11 03:08:49.099 | INFO     | __main__:clean_products_data:56 - Dropped 10 rows due to non-numeric ProductID
+2025-03-11 03:08:49.099 | INFO     | __main__:clean_products_data:61 - Dropped 5 rows due to ProductID outliers
+2025-03-11 03:08:49.100 | INFO     | __main__:clean_products_data:67 - Dropped 0 rows due to empty ProductName
+2025-03-11 03:08:49.101 | INFO     | __main__:clean_products_data:73 - Dropped 0 rows due to invalid Category
+2025-03-11 03:08:49.102 | INFO     | __main__:clean_products_data:80 - Dropped 0 rows due to invalid UnitPrice values
+2025-03-11 03:08:49.102 | INFO     | __main__:clean_products_data:82 - Final cleaned data shape: (8, 4)
+2025-03-11 03:08:49.103 | INFO     | __main__:main:102 - Cleaned products data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\products_data_prepared.csv
