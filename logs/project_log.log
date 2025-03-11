@@ -167,3 +167,15 @@
 2025-03-11 02:47:39.394 | INFO     | __main__:<module>:151 - Dirty sales data shape: (109, 7)
 2025-03-11 02:47:39.394 | INFO     | __main__:<module>:153 - Dirty sales data saved to C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_sales_data.csv
 2025-03-11 02:47:39.395 | INFO     | __main__:<module>:155 - Dirty data files created successfully.
+2025-03-11 03:05:38.869 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 03:05:38.870 | INFO     | __main__:main:82 - Starting prepare_customers_data.py
+2025-03-11 03:05:38.872 | INFO     | __main__:main:86 - Loaded dirty customers data from C:\Projects\smart-store-data-git-hub\data\dirty_data\dirty_customers_data.csv with shape (26, 4)
+2025-03-11 03:05:38.872 | INFO     | __main__:clean_customers_data:43 - Starting cleaning: original shape = (26, 4)
+2025-03-11 03:05:38.873 | INFO     | __main__:clean_customers_data:47 - After duplicates removal: shape = (26, 4)
+2025-03-11 03:05:38.874 | INFO     | __main__:clean_customers_data:53 - Dropped 10 rows due to non-numeric CustomerID
+2025-03-11 03:05:38.874 | INFO     | __main__:clean_customers_data:58 - Dropped 5 rows due to CustomerID outliers
+2025-03-11 03:05:38.875 | INFO     | __main__:clean_customers_data:64 - Dropped 0 rows due to empty Name
+2025-03-11 03:05:38.876 | INFO     | __main__:clean_customers_data:70 - Dropped 0 rows due to invalid Region
+2025-03-11 03:05:38.878 | INFO     | __main__:clean_customers_data:76 - Dropped 0 rows due to invalid JoinDate
+2025-03-11 03:05:38.878 | INFO     | __main__:clean_customers_data:78 - Final cleaned data shape: (11, 4)
+2025-03-11 03:05:38.880 | INFO     | __main__:main:97 - Cleaned customers data saved to C:\Projects\smart-store-data-git-hub\data\_prepared\customers_data_prepared.csv
