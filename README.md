@@ -39,6 +39,8 @@ smart-store-data-git-hub
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
+|- tests
+|   |-test_data_scrubber,py
 |- utils
 |   |- utils_logger.py
 |- .gitignore
@@ -154,3 +156,14 @@ py scripts\data_preparation\report_record_differences.py
 python3 scripts/data_preparation/report_record_differences.py
 ```
 
+## P3. Prepare Data for ETL
+
+### On Windows:
+```shell
+py tests\test_data_scrubber.py
+```
+
+### On macOS/Linux:
+```shell
+python3 tests\test_data_scrubber.py
+```
