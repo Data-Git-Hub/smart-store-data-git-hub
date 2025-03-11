@@ -10,6 +10,10 @@ smart-store-data-git-hub
 |       |- customers_data_prepared.csv
 |       |- products_data_prepared.csv
 |       |- sales_data_prepared.csv
+|   |- actual_clean_data
+|       |- clean_customer_data.csv
+|       |- clean_products_data.csv
+|       |- clean_sales_data.csv
 |   |- dirty_data
 |       |- dirty_customers_data.csv
 |       |- dirty_products_data.csv
@@ -34,7 +38,9 @@ smart-store-data-git-hub
 |       |- prepare_products_data.py
 |       |- prepare_sales_data.py
 |       |- report_record_differences.py
+|   |- __init__.py
 |   |- bi_analysis.py
+|   |- clean_all_data.py
 |   |- create_dirty_data.py
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
@@ -158,6 +164,8 @@ python3 scripts/data_preparation/report_record_differences.py
 
 ## P3. Prepare Data for ETL
 
+### Run Test Data Scrubber
+
 ### On Windows:
 ```shell
 py tests\test_data_scrubber.py
@@ -166,4 +174,16 @@ py tests\test_data_scrubber.py
 ### On macOS/Linux:
 ```shell
 python3 tests\test_data_scrubber.py
+```
+
+### Run Actual Scrubber on Datasets
+
+### On Windows:
+```shell
+py scripts/clean_all_data.py
+```
+
+### On macOS/Linux:
+```shell
+python3 scripts/clean_all_data.py
 ```
