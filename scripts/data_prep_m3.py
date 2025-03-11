@@ -1,6 +1,6 @@
 """
 Module 3: Data Preparation Script
-File: scripts/data_prep.py
+File: scripts/data_prep_m3.py
 
 This script is just one example of a possible data preparation process.
 It loads raw CSV files from the 'data/raw/' directory, cleans and prepares each file, 
@@ -14,8 +14,8 @@ To run it, open a terminal in the root project folder.
 Activate the local project virtual environment.
 Choose the correct command for your OS to run this script.
 
-py scripts\data_prep.py
-python3 scripts\data_prep.py
+py scripts\data_prep_m3.py
+python3 scripts/data_prep_m3.py
 
 NOTE: I use the ruff linter. 
 It warns if all import statements are not at the top of the file.  
@@ -57,21 +57,22 @@ def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
 def main() -> None:
     """Main function for pre-processing customer, product, and sales data."""
     logger.info("======================")
-    logger.info("STARTING data_prep.py")
+    logger.info("STARTING data_prep_m3.py")
     logger.info("======================")
+
+    # Create the prepared data directory if it doesn't exist
+    PREPARED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     logger.info("========================")
     logger.info("Starting CUSTOMERS prep")
     logger.info("========================")
 
     df_customers = read_raw_data("customers_data.csv")
-
     df_customers.columns = df_customers.columns.str.strip()  # Clean column names
     df_customers = df_customers.drop_duplicates()            # Remove duplicates
-
-    df_customers['Name'] = df_customers['Name'].str.strip()  # Trim whitespace from column values
+    df_customers['Name'] = df_customers['Name'].str.strip()    # Trim whitespace from column values
     df_customers = df_customers.dropna(subset=['CustomerID', 'Name'])  # Drop rows missing critical info
-    
+
     scrubber_customers = DataScrubber(df_customers)
     scrubber_customers.check_data_consistency_before_cleaning()
     scrubber_customers.inspect_data()
@@ -87,16 +88,13 @@ def main() -> None:
     logger.info("========================")
 
     df_products = read_raw_data("products_data.csv")
-
     df_products.columns = df_products.columns.str.strip()  # Clean column names
     df_products = df_products.drop_duplicates()            # Remove duplicates
-
     df_products['ProductName'] = df_products['ProductName'].str.strip()  # Trim whitespace from column values
     
     scrubber_products = DataScrubber(df_products)
     scrubber_products.check_data_consistency_before_cleaning()
     scrubber_products.inspect_data()
-
     scrubber_products.check_data_consistency_after_cleaning()
     save_prepared_data(df_products, "products_data_prepared.csv")
 
@@ -105,11 +103,9 @@ def main() -> None:
     logger.info("========================")
 
     df_sales = read_raw_data("sales_data.csv")
-
     df_sales.columns = df_sales.columns.str.strip()  # Clean column names
     df_sales = df_sales.drop_duplicates()            # Remove duplicates
-
-    df_sales['SaleDate'] = pd.to_datetime(df_sales['SaleDate'], errors='coerce')  # Ensure sale_date is datetime
+    df_sales['SaleDate'] = pd.to_datetime(df_sales['SaleDate'], errors='coerce')  # Ensure SaleDate is datetime
     df_sales = df_sales.dropna(subset=['TransactionID', 'SaleDate'])  # Drop rows missing key information
     
     scrubber_sales = DataScrubber(df_sales)
@@ -118,11 +114,10 @@ def main() -> None:
     
     df_sales = scrubber_sales.handle_missing_data(fill_value="Unknown")
     scrubber_sales.check_data_consistency_after_cleaning()
-
     save_prepared_data(df_sales, "sales_data_prepared.csv")
 
     logger.info("======================")
-    logger.info("FINISHED data_prep.py")
+    logger.info("FINISHED data_prep_m3.py")
     logger.info("======================")
 
 if __name__ == "__main__":
