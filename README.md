@@ -1,11 +1,6 @@
 # smart-store-data-git-hub
-P1. BI Python - Initial Step Up
 
-```shell
-python scripts/bi_analysis.py
-```
-
-# Project File Organization
+## Project File Organization
 
 ```plaintext
 smart-store-data-git-hub
@@ -21,7 +16,9 @@ smart-store-data-git-hub
 |   |- project_log.log
 |- scripts/
     |- bi_analysis.py
-    |- data_prep.py
+    |- data_prep_m2.py
+    |- data_prep_m3.py
+    |- data_scrubber.py
 |- utils/
 |   |- utils_logger.py
 |- .gitignore
@@ -45,13 +42,6 @@ py -m venv .venv
 ```shell
 py -m pip install --upgrade -r requirements.txt
 ```
-
-## Run the initial project script
-
-```shell
-py scripts/data_prep.py
-```
-
 -----
 
 ## Initial Package List
@@ -67,3 +57,17 @@ py scripts/data_prep.py
 - plotly
 - pyspark==4.0.0.dev1
 - pyspark[sql]
+
+---
+## P1. BI Python - Project Script
+
+```shell
+python scripts/bi_analysis.py
+```
+
+## P2. BI Python w/External Packages
+
+```shell
+py scripts/data_prep_m2.py
+```
+
