@@ -24,7 +24,9 @@ smart-store-data-git-hub
 |       |- sales_data_prepared.csv
 |   | - processed
 |       |- answers.txt
-|       |- P1_B1_Python.txt  
+|       |- P1_B1_Python.txt 
+|       |- schema_dimension_table.txt
+|       |- schema_fact_table.txt 
 |   | - raw
 |       |- customers_data.csv
 |       |- products_data.csv
@@ -45,6 +47,8 @@ smart-store-data-git-hub
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
+|   |- schema_dimension_table.py
+|   |- schema_fact_table.py
 |- tests
 |   |-test_data_scrubber,py
 |- utils
@@ -186,4 +190,28 @@ py scripts/clean_all_data.py
 ### On macOS/Linux:
 ```shell
 python3 scripts/clean_all_data.py
+```
+
+### Run schema_dimension_table.py
+
+### On Windows:
+```shell
+py scripts/schema_dimension_table.py
+```
+
+### On macOS/Linux: 
+```shell
+python3 scripts/schema_dimension_table.py
+```
+
+### Run schema_fact_table.py
+
+### On Windows:
+```shell
+py scripts/schema_fact_table.py
+```
+
+### On macOS/Linux: 
+```shell
+python3 scripts/schema_fact_table.py
 ```

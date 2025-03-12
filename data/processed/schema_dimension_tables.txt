@@ -1,0 +1,21 @@
+Schema for customers:
+CustomerID: float64
+Name: object
+Region: object
+JoinDate: object
+
+Schema for products:
+ProductID: float64
+ProductName: object
+Category: object
+UnitPrice: float64
+
+Schema for sales:
+TransactionID: float64
+SaleDate: object
+CustomerID: int64
+ProductID: int64
+StoreID: int64
+CampaignID: int64
+SaleAmount: float64
+

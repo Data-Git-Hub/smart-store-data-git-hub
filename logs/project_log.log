@@ -296,3 +296,12 @@
 2025-03-11 03:29:20.920 | INFO     | __main__:run_script:42 - Script prepare_sales_data.py completed successfully.
 2025-03-11 03:29:20.920 | INFO     | __main__:run_script:43 - 
 2025-03-11 03:29:20.920 | INFO     | __main__:main:53 - All data cleaning scripts completed successfully.
+2025-03-11 19:04:47.607 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 19:04:47.608 | INFO     | __main__:main:30 - Generating schema for dimension tables...
+2025-03-11 19:04:47.612 | INFO     | __main__:main:47 - Schema saved to C:\Projects\smart-store-data-git-hub\data\processed\schema_dimension_tables.txt
+2025-03-11 19:08:25.639 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 19:08:25.639 | INFO     | __main__:main:30 - Generating schema for dimension tables...
+2025-03-11 19:08:25.643 | INFO     | __main__:main:47 - Schema saved to C:\Projects\smart-store-data-git-hub\data\processed\schema_dimension_tables.txt
+2025-03-11 19:11:27.418 | INFO     | utils.utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-03-11 19:11:27.421 | INFO     | __main__:<module>:31 - Loaded sales data from C:\Projects\smart-store-data-git-hub\data\prepared\sales_data_prepared.csv
+2025-03-11 19:11:27.422 | INFO     | __main__:<module>:46 - Schema for fact table saved to C:\Projects\smart-store-data-git-hub\data\processed\schema_fact_tables.txt

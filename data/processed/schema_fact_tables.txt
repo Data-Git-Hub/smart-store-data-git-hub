@@ -1,0 +1,11 @@
+Schema for Fact Table: sales
+========================================
+TransactionID: int64
+SaleDate: object
+CustomerID: int64
+ProductID: int64
+StoreID: int64
+CampaignID: int64
+SaleAmount: float64
+DiscountPercent: int64
+PaymentType: object
