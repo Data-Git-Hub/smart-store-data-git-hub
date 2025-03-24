@@ -18,6 +18,8 @@ smart-store-data-git-hub
 |       |- dirty_customers_data.csv
 |       |- dirty_products_data.csv
 |       |- dirty_sales_data.csv
+|       |- dw
+|           |- smart_sales.db
 |   |- prepared
 |       |- customers_data_prepared.csv
 |       |- products_data_prepared.csv
@@ -215,4 +217,18 @@ py scripts/schema_fact_table.py
 ### On macOS/Linux: 
 ```shell
 python3 scripts/schema_fact_table.py
+```
+
+## P4. Create and Populate DW
+
+### Run etl_to_dw.py
+
+### On Windows:
+```shell
+py scripts/etl_to_dw.py
+```
+
+### On macOS/Linux:
+```shell
+python3 scripts/etl_to_dw.py
 ```
