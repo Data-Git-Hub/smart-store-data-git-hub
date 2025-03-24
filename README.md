@@ -60,6 +60,7 @@ smart-store-data-git-hub
 |- LICENSE
 |- README.md
 |- requirements.txt
+|- spark.ipynb
 ```
 ### Create a Local Project Virtual Environment
 

@@ -169,3 +169,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# PySpark local temp directories
+.metastore_db/
+derby.log
+
+# VS Code settings
+.vscode/
+
+# Jupyter runtime files
+*.pid
+*.log

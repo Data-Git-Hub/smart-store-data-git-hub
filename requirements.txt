@@ -70,3 +70,7 @@ plotly
 
 # Easy access to modern Excel files (*.xlsx)
 openpyxl
+
+pyspark
+ipkernel
+notebook
