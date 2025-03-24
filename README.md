@@ -47,6 +47,7 @@ smart-store-data-git-hub
 |   |- data_prep_m2.py
 |   |- data_prep_m3.py
 |   |- data_scrubber.py
+|   |- etl_to_dw.py
 |   |- schema_dimension_table.py
 |   |- schema_fact_table.py
 |- tests
