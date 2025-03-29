@@ -183,3 +183,7 @@ derby.log
 
 # driver needed for jdbc
 jdbc_drivers/
+
+# necessary for 
+pyspark
+notebook
