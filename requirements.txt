@@ -72,5 +72,5 @@ plotly
 openpyxl
 
 pyspark
-ipkernel
+ipykernel
 notebook
