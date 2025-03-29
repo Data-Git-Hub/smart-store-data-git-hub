@@ -25,6 +25,7 @@ smart-store-data-git-hub
 |       |- products_data_prepared.csv
 |       |- sales_data_prepared.csv
 |   | - processed
+|       |- 2024_drilldown.txt
 |       |- answers.txt
 |       |- P1_B1_Python.txt 
 |       |- schema_dimension_table.txt
@@ -233,3 +234,24 @@ py scripts/etl_to_dw.py
 ```shell
 python3 scripts/etl_to_dw.py
 ```
+
+
+## P5. Cross-Platform Reporting with Spark
+
+1. Describe your SQL queries and reports.
+    This project involved designing, implementing, and analyzing a data warehouse using SQLite and PySpark. The dataset consisted of customer, product, and sales records sourced from pre-cleaned CSV files. The goal was to structure the data into a star schema to support business intelligence reporting, extract insights using Spark SQL, and visualize trends and top performers. <br>
+
+2. Explain dashboard design choices.
+    I used a star schema in the data warehouse to simplify relationships and optimize read performance. <br>
+
+    Drilldown aggregations provided a way to analyze sales at varying levels of granularity, from yearly summaries to monthly breakdowns. <br>
+
+    By caching the tables in Spark, I improved performance for repeated queries, especially when joining or aggregating large datasets. <br>
+
+3. Include screenshot of: Spark SQL Schema
+
+
+4. Include screenshot of: Query results
+
+
+5. Include screenshot of: Final Dashboard / Charts
