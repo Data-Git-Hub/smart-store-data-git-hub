@@ -77,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # IPython
 profile_default/
@@ -179,6 +180,7 @@ derby.log
 
 # Jupyter runtime files
 *.pid
+*.db
 *.log
 
 # driver needed for jdbc
