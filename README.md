@@ -249,9 +249,13 @@ python3 scripts/etl_to_dw.py
     By caching the tables in Spark, I improved performance for repeated queries, especially when joining or aggregating large datasets. <br>
 
 3. Include screenshot of: Spark SQL Schema
+### Spark SQL Schema
 
+![Spark SQL Schema](images/spark_schema.png)
 
 4. Include screenshot of: Query results
+### Spark SQL Schema
 
+![Total Revenue Customers](images/query_tr_cust.png)
 
 5. Include screenshot of: Final Dashboard / Charts
