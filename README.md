@@ -253,9 +253,22 @@ python3 scripts/etl_to_dw.py
 
 ![Spark SQL Schema](images/spark_schema.png)
 
-4. Include screenshot of: Query results
-### Spark SQL Schema
+4. Include screenshot of: Query Results
+
+### Query - Total Revenue by Customer
 
 ![Total Revenue Customers](images/query_tr_cust.png)
 
+### Matrix - Product Region Matrix
+
+![Product Region Matrix](images/df_product_region_matrix.png)
+
 5. Include screenshot of: Final Dashboard / Charts
+
+### Charts - Top Customer Chart
+
+![Top Customer Chart](images/top_cust.png)
+
+### Charts - Sales Trends 2024
+
+![Sales Trends 2024](images/sales_trends.png)
