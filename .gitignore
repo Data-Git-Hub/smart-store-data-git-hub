@@ -180,3 +180,6 @@ derby.log
 # Jupyter runtime files
 *.pid
 *.log
+
+# driver needed for jdbc
+jdbc_drivers/
